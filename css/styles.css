@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+.navBar {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+body {
+    margin: 0;
+    background: #222224;
+    font-weight: 300;
+}
+
+header {
+    background: #6F6BE3;
+    font-weight: 300;    
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 18px;
+
+    width: 100px;
+    text-align: center;
+
+    position: relative;
+}
+
+nav a {
+    color: #222224;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background: #222224;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%
+}
+
+.sectionPageTitle {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+.sectionBio {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+.sectionLinksIcons a {
+    text-decoration: none;
+}
+
+.sectionLinksIcons a img {
+    width: 32px;
+    height: 32px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
