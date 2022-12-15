@@ -2,35 +2,48 @@
 <html>
 
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sam Hefford</title>
     <meta description="A practice site for web development learning.">
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <section id="homeSection">
-<!--
-        <div class="c-logo">
-            <img src="assets/logo.svg" />
-        </div>
--->
+    <header>
+        <section id="headerSection">
+            <div class="c-logo">
+                <img src="assets/logo.svg" />
+            </div>
+        </section>
+    </header>
 
-        <div class="c-intro">
-            <div class="c-intro-image">
-                <img src="assets/images/selfImage.png" style="width:128px;height:128px;" alt="Selfie" />
+    <main>
+        <section id="homeSection">
+            <div class="dummySpace"></div>
+
+            <div class="c-intro fade-in">
+                <div class="c-intro-image">
+                    <img src="assets/images/selfImage.png" style="width:128px;height:128px;" alt="Selfie" />
+                </div>
+                <div class="c-intro-text">
+                    <h6>Sam Hefford</h6>
+                    <h1>Software Engineer</h1>
+                    <p>
+                        I've always found that software development is the perfect balance between a creative outlet and intense puzzle solving. It's an incredibly rewarding experience to be working on a problem and with some hard work, learning and little artistic flair you can see the results in real time.
+                        <br />
+                        <br />
+                        This is what keeps me passionate about my work and my goal moving forward is to keep learning and expand my skills with new languages, frameworks and design principles.
+                    </p>
+                </div>
             </div>
-            <div class="c-intro-text">
-                <h6>Sam Hefford</h6>
-                <h1>Software Engineer</h1>
-                <p>
-                    I've always found that software development is the perfect balance between a creative outlet and intense puzzle solving. It's an incredibly rewarding experience to be working on a problem and with some hard work, learning and little artistic flair you can see the results in real time.
-                    <br />
-                    <br />
-                    This is what keeps me passionate about my work and my goal moving forward is to keep learning and expand my skills with new languages, frameworks and design principles.
-                </p>
-            </div>
-        </div>
-    </section>
+
+            <div class="dummySpace"></div>
+        </section>
+    </main>
+
+    <script src="scripts/opacity-observer.js"></script>
 </body>
 
 <footer>
@@ -47,4 +60,6 @@
     </section>
     <br />
     <p>&copy; Sam Hefford 2022</p>
-</footer></html>
+</footer>
+
+</html>
