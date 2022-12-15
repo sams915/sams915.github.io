@@ -53,13 +53,12 @@ p {
     font-size: 15px
 }
 
-.c-logo{
+.c-logo {
     width 70vw;
     max-width: 1200px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 220px;
 }
 
 .c-intro {
@@ -67,8 +66,19 @@ p {
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 140px;
-    padding-bottom: 220px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.dummySpace {
+    height: 200px;
 }
 
 .sectionLinksIcons a {
