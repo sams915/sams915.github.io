@@ -54,11 +54,13 @@ p {
 }
 
 .c-logo {
-    width 70vw;
+    width: 80vw;
     max-width: 1200px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .c-intro {
